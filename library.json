@@ -1,0 +1,25 @@
+{
+  "name": "ESP8266DOM",
+  "version": "1.0.0",
+  "description": "A simple library for building a web interface for your ESP8266",
+  "keywords": "esp8266, web, interface, dom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodingButter/ESP8266DOM.git"
+  },
+  "authors": [
+    {
+      "name": "Jamie Nichols",
+      "email": "jamienichols@codingbutter.com",
+      "url": "https://codingbutter.com/contact",
+      "maintainer": true
+    }
+  ],
+  "export": {
+    "excludes": ["examples", "test/*"]
+  },
+  "license": "MIT",
+  "homepage": "https://esp8266.codingbutter.com",
+  "frameworks": ["arduino"],
+  "platforms": ["espressif8266"]
+}
